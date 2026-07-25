@@ -9,7 +9,7 @@
 
 CareerPilot is an AI-powered Resume Analysis and Career Guidance platform that helps job seekers evaluate their resumes against job descriptions, improve ATS compatibility, identify missing skills, optimize resumes using AI, generate personalized interview questions, create tailored cover letters, receive career guidance, and interact with an AI Career Coach—all in one place.
 
----
+
 
 ## 🌐 Live Demo
 
