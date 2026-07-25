@@ -1,19 +1,20 @@
 import re
 import nltk
 
-try:
-    nltk.data.find("corpora/stopwords")
-except LookupError:
-    nltk.download("stopwords")
+# Download only the resources we actually use
+resources = [
+    ("corpora/stopwords", "stopwords"),
+    ("corpora/wordnet", "wordnet"),
+]
 
-try:
-    nltk.data.find("tokenizers/punkt")
-except LookupError:
-    nltk.download("punkt")
+for path, name in resources:
+    try:
+        nltk.data.find(path)
+    except LookupError:
+        nltk.download(name)
 
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-from nltk.tokenize import word_tokenize
 
 stop_words = set(stopwords.words("english"))
 lemmatizer = WordNetLemmatizer()
@@ -21,25 +22,22 @@ lemmatizer = WordNetLemmatizer()
 
 def preprocess_text(text):
 
-    # lowercase
+    # Lowercase
     text = text.lower()
 
-    # remove punctuation and numbers
+    # Remove punctuation and numbers
     text = re.sub(r"[^a-zA-Z\s]", " ", text)
 
-    # tokenize
-    tokens = word_tokenize(text)
+    # Simple regex tokenization (no punkt required)
+    tokens = re.findall(r"\b[a-zA-Z]+\b", text)
 
-    # remove stopwords
+    # Remove stopwords
     tokens = [word for word in tokens if word not in stop_words]
 
-    # remove very short words
+    # Remove short words
     tokens = [word for word in tokens if len(word) > 2]
 
-    # lemmatization
+    # Lemmatize
     tokens = [lemmatizer.lemmatize(word) for word in tokens]
 
-    # join again
-    cleaned_text = " ".join(tokens)
-
-    return cleaned_text
+    return " ".join(tokens)
