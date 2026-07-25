@@ -1,4 +1,10 @@
 # 🚀 CareerPilot
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit)
+![Google Gemini](https://img.shields.io/badge/Google-Gemini-blue?logo=google)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 ### Analyze • Optimize • Get Hired
 
 CareerPilot is an AI-powered Resume Analysis and Career Guidance platform that helps job seekers evaluate their resumes against job descriptions, improve ATS compatibility, identify missing skills, optimize resumes using AI, generate personalized interview questions, create tailored cover letters, receive career guidance, and interact with an AI Career Coach—all in one place.
@@ -9,8 +15,13 @@ CareerPilot is an AI-powered Resume Analysis and Career Guidance platform that h
 
 🔗 **Streamlit App:** *https://careerpilot-gekhttd5kefdcsgkm7sf47.streamlit.app/#career-pilot-v1-0*
 
+## ⚠️ Disclaimer
 
----
+CareerPilot is a personal learning and portfolio project developed to explore AI-powered resume analysis and career assistance using Python, Streamlit, and Google Gemini.
+
+While every effort has been made to ensure reliable functionality, the application is still under active development. Some features may produce inaccurate results, unexpected behavior, or fail under certain inputs. The generated recommendations should be used as guidance rather than professional career or recruitment advice.
+
+Feedback, bug reports, and suggestions are always welcome.
 
 ## ✨ Features
 
