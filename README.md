@@ -1,5 +1,6 @@
 # 🚀 CareerPilot
 ### Analyze • Optimize • Get Hired
+---
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit)
