@@ -10,8 +10,6 @@ from career import career_advice
 from coverletter import generate_cover_letter
 from ats import calculate_ats_score
 from skilladvisor import get_skill_advice
-from pdfreport import generate_pdf
-from sectionanalyzer import analyze_resume_sections
 from coach import career_coach
 import streamlit as st
 import google.generativeai as genai
