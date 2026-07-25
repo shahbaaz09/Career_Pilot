@@ -1,11 +1,10 @@
 # 🚀 CareerPilot
+### Analyze • Optimize • Get Hired
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit)
 ![Google Gemini](https://img.shields.io/badge/Google-Gemini-blue?logo=google)
 ![License](https://img.shields.io/badge/License-MIT-green)
-
-### Analyze • Optimize • Get Hired
 
 CareerPilot is an AI-powered Resume Analysis and Career Guidance platform that helps job seekers evaluate their resumes against job descriptions, improve ATS compatibility, identify missing skills, optimize resumes using AI, generate personalized interview questions, create tailored cover letters, receive career guidance, and interact with an AI Career Coach—all in one place.
 
